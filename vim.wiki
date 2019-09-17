@@ -1,0 +1,36 @@
+= Vim Commands =
+
+== Plugins ==
+
+Converts all wiki pages to HTML: `:VimwikiAll2HTML`
+
+=== Surround ===
+
+`cs"'` changes surrounding `"` to `'`
+
+`cst<tag>` changes an HTML tag
+
+`ds"` deletes surrounding `"`
+
+`ysiw]` surrounds a word with `[]`
+
+`yssb` or `yss)` to surround a whole sentence in `()`
+
+* Use `.` to repeat commands.
+
+=== Commentary ===
+
+`gcc` comments out a line
+
+`gc` followed by a motion comments out to there
+
+=== Sort Motion ===
+
+`gs2j` sorts the two lines under the cursor
+
+`gsip` sorts the current paragraph
+
+`gsii` sorts thecurrent indentation level
+
+`gsi(` sorts stuff inside a `(`
+

@@ -1,0 +1,25 @@
+== HTML5 Validator Docker Setup ==
+
+1. Start the [Nu HTML Validator Docker](https://hub.docker.com/r/validator/validator/) container with the following command, replacing `<pathToFilesYouWantToValidate>` with the path to all the project folders:
+
+```bash
+
+docker run -it --rm -v <pathToFilesYouWantToValidate>:/portfolios validator/validator:latest
+
+```
+
+2. Get access to the validator CLI inside the container by running:
+
+```bash
+# Run the following first to get the name of the running container
+docker ps
+
+# Run the following command to get into the container
+docker exec -it <nameOfContainer> /bin/bash
+```
+
+3. Once inside the container, run the validator and direct the output to a log file using the following:
+
+```bash
+vnu --skip-non-html --also-check-css /portfolios  - 2>&1 | tee /portfolios/errors.log
+```

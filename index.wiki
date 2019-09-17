@@ -1,0 +1,22 @@
+= Dev Wiki =
+
+== Reading List ==
+
+- [ ] 
+
+== Commands ==
+
+* [[Vim]]
+
+== Configuration Snippets ==
+
+- [ ] Review `.vimrc` after looking at: https://github.com/neoclide/coc.nvim#example-vim-configuration
+- [ ] Vim status bar configs: http://got-ravings.blogspot.com/2008/08/vim-pr0n-making-statuslines-that-own.html
+
+=== OSX Config ===
+
+Drag windows while holding cmd + ^ on OSX:
+
+{{{shell
+  defaults write -g NSWindowShouldDragOnGesture -bool true
+}}}
