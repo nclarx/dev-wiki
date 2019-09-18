@@ -1,4 +1,4 @@
-== HTML5 Validator Docker Setup ==
+= HTML5 Validator Docker Setup ==
 
 1. Start the [Nu HTML Validator Docker](https://hub.docker.com/r/validator/validator/) container with the following command, replacing `<pathToFilesYouWantToValidate>` with the path to all the project folders:
 
