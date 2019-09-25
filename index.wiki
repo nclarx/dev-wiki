@@ -12,7 +12,9 @@
 
 * [[Vim]]
 
-==  Config ==
+==  Shell CMDs ==
+
+List all declared variables in ZSH: `( setopt posixbuiltin; set; ) | less`
 
 === Drag Window on with Key Press OSX ===
 
