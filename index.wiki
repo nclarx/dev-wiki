@@ -8,6 +8,8 @@
 - [ ] Client side routing with Vanilla JS: http://willtaylor.blog/client-side-routing-in-vanilla-js/
 - [ ] Typescript logicianing https://www.codegram.com/blog/becoming-a-logician-with-typescript/
 - [ ] https://medium.com/free-code-camp/a-guide-to-modern-web-development-with-neo-vim-333f7efbf8e2?source=linkShare-ecf4bfd92b50-1571262330
+- [ ] https://www.reddit.com/r/Angular2/comments/djlac6/bside_github_cms_made_with_angular/?utm_source=share&utm_medium=ios_app&utm_name=iossmf
+
 
 == Commands ==
 
